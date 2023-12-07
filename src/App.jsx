@@ -70,7 +70,7 @@ function App() {
               );
             })}
         </div>
-        <img className="img" src="/public/img.png" alt="" />
+        <img className="img" src="/img.png" alt="" />
       </div>
     </div>
   );
