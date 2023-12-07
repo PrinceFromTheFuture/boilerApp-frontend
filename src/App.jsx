@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "https://https://boiler-app-api.onrender.com/users",
+        "https://boiler-app-api.onrender.com/users",
         {
           method: "GET",
         }
@@ -27,7 +27,7 @@ function App() {
     };
     setState(newObject);
     const response = await fetch(
-      "https://https://boiler-app-api.onrender.com/update-user-state",
+      "https://boiler-app-api.onrender.com/update-user-state",
       {
         method: "POST",
         body: JSON.stringify({
