@@ -30,7 +30,7 @@ function App() {
         "__v": 0
     }
 ]
-  const [state, setState] = useState([]);
+  const [state, setState] = useState(initialData);
 
   useEffect(() => {
     const fetchData = async () => {
