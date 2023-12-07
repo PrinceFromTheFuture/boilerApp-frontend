@@ -7,7 +7,7 @@ body{
   padding: 0;
   min-height: 100vh;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 
   color: #3D3B3B;
 }
