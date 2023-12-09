@@ -3,34 +3,8 @@ import { useEffect, useState } from "react";
 
 import Switch from "./components/Switch";
 
-function App() {
-  const initialData = [
-    {
-        "_id": "65708a84fab546759ec3b3b4",
-        "name": "adi",
-        "isActive": false,
-        "__v": 0
-    },
-    {
-        "_id": "65708a8a9561f4a5ebbf9df1",
-        "name": "dad",
-        "isActive": false,
-        "__v": 0
-    },
-    {
-        "_id": "65708a93ecd94621b1fe3060",
-        "name": "mom",
-        "isActive": false,
-        "__v": 0
-    },
-    {
-        "_id": "65708aadecd94621b1fe3062",
-        "name": "Amir",
-        "isActive": false,
-        "__v": 0
-    }
-]
-  const [state, setState] = useState(initialData);
+function App(){
+  const [state, setState] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
